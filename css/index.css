@@ -1,0 +1,48 @@
+
+.sections{
+    padding:100px 20px;
+ }
+  
+  #home {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .title{
+    color: white;
+    margin-left: 5rem;
+    display: block;
+  }
+
+  .title h1{
+    font-size: 5rem;
+    word-wrap: break-word;
+  }
+
+  .title h2{
+    font-size: 4rem;
+  }
+
+
+  #aboutus {
+    background-image: url('../images/about.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .aboutustext {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  
