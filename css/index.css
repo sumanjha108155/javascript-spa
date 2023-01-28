@@ -6,6 +6,7 @@
  width: 50%;
   }
 
+  /* home css  */
   #home {
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
@@ -27,6 +28,7 @@
     font-size: 4rem;
   }
 
+  /* about us css  */
   #aboutus {
     background-image: url('../images/about.png');
     background-repeat: no-repeat;
@@ -47,6 +49,7 @@
     color: white;
   }
 
+  /* image css  */
   #images{
     transition-delay: 200ms;
     position: relative;
@@ -69,6 +72,7 @@
   border: none ;
 }
 
+/* service css  */
 #services {
   background-image: url('../images/services.png');
     background-repeat: no-repeat;
@@ -83,6 +87,8 @@
 .blank{
   height: 10rem;
 }
+
+/* media queries for responsiveness */
 @media screen and (max-width:800px) {
   .blank{
     height: 1rem;
