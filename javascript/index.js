@@ -42,23 +42,3 @@ setInterval(() =>{
         current = 0;
     }
 }, 4000)
-
-
-
-// functions for redirection to home about images and services page
-function home() {
-    window.location.href = '#home';
-}
-
-function about() {
-    window.location.href = '#aboutus';
-}
-
-function image() {
-    window.location.href = '#images';
-}
-
-function services() {
-    window.location.href = '#services';
-}
-
