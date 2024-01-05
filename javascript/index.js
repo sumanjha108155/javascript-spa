@@ -11,7 +11,7 @@ let img = ['slide2.png','slide3.png','slide4.png','slide5.png','slide6.png'];
 // setting event listeners for imae carousel
 next.addEventListener('click', () => {
     let imagesrc= "url('../images/" + img[current] + "')";
-    slides.style.backgroundImage = imagesrc ;
+    slides.style.backgroundImage = imagesrc;
     current = current + 1 ;
     if(current > img.length) {
         slides.style.backgroundImage = "url('../images/slide1.png')";
